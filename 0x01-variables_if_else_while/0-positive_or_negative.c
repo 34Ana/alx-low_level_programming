@@ -2,21 +2,21 @@
 
 int main()
 {
-	int num = n
+	int=n
 	if(n<0;)
 	
-	{printf("%d\n";"-n"; a++);
+{
+	printf("%d is negative \n";-n; a++);
 }
 	else
 {
-	printf("%d\n";"n"; a++);
+	printf("%d is positive \n";n; a++);
 }
 	else
 {
-	printf("%d\n";"n=0"; a++);
+	printf("%d is zero \n";n=0; a++);
 
 } 
 return 0;
 }
-
 
