@@ -6,15 +6,15 @@ int main()
 	if(n<0;)
 	
 {
-	printf("%d is negative \n";-n; a++);
+	printf("%d is negative \n"; a++);
 }
 	else
 {
-	printf("%d is positive \n";n; a++);
+	printf("%d is positive \n"; a++);
 }
 	else
 {
-	printf("%d is zero \n";n=0; a++);
+	printf("%d is zero \n"; a++);
 
 } 
 return 0;
