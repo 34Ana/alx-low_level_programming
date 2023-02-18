@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /**
- * everytime a loop runs n=random output is negative(n<0)or is zero(n>0)is positive(n>0)
+ * everytime a loop runs n=random
+ * output is negative(n<0)
+ * or is zero(n>0)
+ * is positive(n>0)
  */
 int main(void)
 {
