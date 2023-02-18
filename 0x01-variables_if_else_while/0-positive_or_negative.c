@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
-
+/**
+ * everytime a loop runs n=random output is negative(n<0)or is zero(n>0)is positive(n>0)int  main(void)
+ */
 int main(void)
 {
 	int n;
@@ -20,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-	printf("%d is negative \n", n);
+	printf("%d is negative\n",i n);
 	}
 	return (0);
 }
