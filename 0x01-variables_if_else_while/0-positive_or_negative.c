@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * everytime a loop runs n=random output is negative(n<0)or is zero(n>0)is positive(n>0)int  main(void)
+ * everytime a loop runs n=random output is negative(n<0)or is zero(n>0)is positive(n>0)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-	printf("%d is negative\n",i n);
+	printf("%d is negative\n", n);
 	}
 	return (0);
 }
