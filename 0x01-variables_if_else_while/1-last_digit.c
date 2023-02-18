@@ -9,7 +9,7 @@
  * n, is(is what) n>5 - and is greater than 5
  * n==0 and is 0
  * 0<n<6 and is less than 6 and not 0 \n
- * Return = Always(Sucess)
+ * Return: Always(Sucess)
  *
  */
 int main(void)
