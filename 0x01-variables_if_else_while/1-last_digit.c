@@ -4,7 +4,8 @@
 
 
 /**
- * Main: function - n will ++a a different n every time
+ * Main -
+ * function - n will ++a a different n every time
  * outputs Last gigit of(it should be a string)
  * n, is(is what) n>5 - and is greater than 5
  * n==0 and is 0
@@ -12,6 +13,7 @@
  * Return: Always(Sucess)
  *
  */
+
 int main(void)
 {
 	int n, lastd;
