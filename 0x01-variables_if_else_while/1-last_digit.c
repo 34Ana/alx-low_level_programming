@@ -4,7 +4,7 @@
 
 
 /**
- * Main -
+ * main -
  * function - n will ++a a different n every time
  * outputs Last gigit of(it should be a string)
  * n, is(is what) n>5 - and is greater than 5
