@@ -2,7 +2,7 @@
 
 /**
  * main - list the 32 and 36 system bits sizes
- * Return (0)
+ * Return: (0)
  */
 
 int main(void)
