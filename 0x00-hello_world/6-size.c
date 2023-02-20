@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/** main - list the 32 and 36 system bits sizes
+/**
+ * main - list the 32 and 36 system bits sizes
  * Return 0
  * /
  *
