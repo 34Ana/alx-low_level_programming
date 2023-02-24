@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * main - spell putcher
+ * return: 0
+ */
 int main(void)
 {
 _putchar('_');
