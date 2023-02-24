@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - spell putcher
+ * main: spell putcher
  * return: 0
  */
 int main(void)
