@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * swap_int - swaps the values of two integers. 
  * @a: Pointer to the first integer.
- * @b: Pointer to the second integer.
+ * @b: P1-swap.c:7: warning: No description found for parameter or member 'a'
+1-swap.c:7: warning: No description found for parameter or member 'b'ointer to the second integer.
  * Return: Always 0.
  */
 int main(void)
