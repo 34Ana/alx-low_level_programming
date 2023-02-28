@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * swap_int - swaps the values of two integers. 
+ * swap_int - Swaps the values of two integers.
  * @a: Pointer to the first integer.
  * @b: Pointer to the second integer.
- * Return: Always 0.
+ * This function swaps the values of the integers pointed to by @a and @b.
  */
 int main(void)
 {
