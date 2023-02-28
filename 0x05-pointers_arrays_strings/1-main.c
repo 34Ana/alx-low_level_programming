@@ -3,8 +3,8 @@
 
 /**
  * main - check the code
- * @a: pointer to the first int.
- * @b: pointer to the second int.
+ * @a: Pointer to the first integer.
+ * @b: Pointer to the second integer.
  * Return: Always 0.
  */
 int main(void)
