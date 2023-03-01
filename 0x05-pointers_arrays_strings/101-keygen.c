@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - generade random passwords for
  * program 101-crackme.
@@ -9,13 +10,13 @@
 
 int main(void)
 {
-char password[64];
+char password[84];
 int index = 0, sum = 0, diff_half1, deff_half2;
 srand(time(0));
 while (sum < 2772)
 {
 password[index] = 33 + rand() % 94;
-sum =+ password[index++];
+sum += password[index++];
 }
 password[index] = '\0';
 if (sum != 2772)
@@ -26,20 +27,18 @@ if ((sum - 2772) % 2 != 0)
 diff_half1++;
 for (index = 0; password[index]; index++)
 {
-if (password[index] >= (33 = deff_half1))
+if (password[index] >= (33 + diff_half1))
 {
 password[index] -= diff_half1;
 break;
 }
+}
 for (index = 0; password[index]; index++)
 {
-password[index] -= deff_half2;
+if password[index] >= (33 + diff_half2));
 break;
 }
 }
-{
 printf("%s", password);
 return (0);
-}
-}
 }
