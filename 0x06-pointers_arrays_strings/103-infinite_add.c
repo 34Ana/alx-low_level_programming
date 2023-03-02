@@ -1,5 +1,25 @@
 #include "main.h"
-void rev_string(char *s);
+
+void rev_string(char *s)
+{
+    int i, j;
+    char temp;
+
+    i = 0;
+    while (s[i] != '\0')
+    {
+        i++;
+    }
+    i--;
+
+    for (j = 0; j < i; j++)
+    {
+        temp = s[j];
+        s[j] = s[i];
+        s[i] = temp;
+        i--;
+    }
+}
 /**
  * infinite_add - function that adds two numbers.
  * @n1: n1
