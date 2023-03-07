@@ -14,5 +14,5 @@ while (n--)
 {
 	*p++ = b;
 }
-return s;
+return (s);
 }
