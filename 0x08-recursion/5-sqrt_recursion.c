@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-int_sqrt(int n, int i);
+int _sqrt(int n, int i);
 /**
  * _sqrt_recursion - returns natural square root of nr
  * @n: the nr
