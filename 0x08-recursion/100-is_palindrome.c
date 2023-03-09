@@ -6,8 +6,8 @@
  */
 int is_palindrome(char *s)
 {
-	int len = strlen(s);
-	if (len <= 1)
-		return (1);
-	return ((*s == *(s + len - 1)) && is_palindrome(s + 1));
+int len = strlen(s);
+if (len <= 1)
+return (1);
+return ((*s == *(s + len - 1)) && is_palindrome(s + 1));
 }
