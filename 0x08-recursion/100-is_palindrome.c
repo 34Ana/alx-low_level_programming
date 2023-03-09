@@ -1,5 +1,8 @@
 #include <string.h>
 
+int comparator(char *s, int n1, int n2);
+int is_palindrome(char *s);
+
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not.
  * @s: the string
@@ -8,8 +11,8 @@
 int is_palindrome(char *s)
 {
         int len = strlen(s);
-        if (len <= 1)
-                return (1);
+        if (len == 0)
+                return (0);
         else
                 return (comparator(s, 0, len - 1));
 }
@@ -19,7 +22,7 @@ int is_palindrome(char *s)
  * @s: the string
  * @n1: smallest iterator
  * @n2: largest iterator
- * Return: 1 if palindrome, 0 if not
+ * Return: .
  */
 int comparator(char *s, int n1, int n2)
 {
