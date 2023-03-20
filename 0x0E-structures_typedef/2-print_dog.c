@@ -1,12 +1,19 @@
-#include "dog.h"
+#include "dogg.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * print_dog - prints a struct dog
  * @d: the struct dog to be printed
+ * @name: name
+ * @age: age
+ * @owner: owner
  */
 void print_dog(struct dog *d)
 {
+char *name;
+float age;
+char *owner;
 	{
 		if (d == NULL)
 return;
