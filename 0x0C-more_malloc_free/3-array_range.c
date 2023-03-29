@@ -3,7 +3,8 @@
 /**
  * array_range - ...
  * @min: ...
- * @max: ...Return: int value
+ * @max: ...
+ * Return: int value
  */
 int *array_range(int min, int max)
 {
